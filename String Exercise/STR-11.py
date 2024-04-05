@@ -1,0 +1,7 @@
+s = input("Enter a String:")
+r = input("Enter the string to be find:")
+l = s.lower()
+res = l.find(r.lower())
+res1 = l.rfind(r.lower())
+print(res)
+print(res1)
